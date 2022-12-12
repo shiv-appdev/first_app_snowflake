@@ -1,9 +1,9 @@
 import streamlit
-streamlit.title('JK bakers')
+streamlit.title(':)JK bakers:)')
 
-streamlit.header('Menu')
-streamlit.text('VegPuff')
-streamlit.text('chickenPuff')
+streamlit.header('FOOD ITEMS AND BEVEREGES 3>')
+streamlit.text('VegPuff:P')
+streamlit.text('chickenPuff :P')
 streamlit.text('vegsandwich')
-streamlit.text('best puffs and sandwiches')
+streamlit.text('best puffs and sandwiches:) :)')
 
