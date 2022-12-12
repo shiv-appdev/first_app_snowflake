@@ -1,5 +1,5 @@
 import streamlit
-streamlit.title(':)JK bakers:)')
+streamlit.title('JK bakers')
 
 streamlit.header('FOOD ITEMS AND BEVEREGES 3>')
 streamlit.text('VegPuff:P')
