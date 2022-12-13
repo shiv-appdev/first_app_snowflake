@@ -1,5 +1,5 @@
 import streamlit
-streamlit.title('FRUITS AND JUICES')
+streamlit.title('Melanie's Healthy Cafe Menu')
 streamlit.header('MENU')
 streamlit.text('smoothie ')
 streamlit.text('apple pie')
