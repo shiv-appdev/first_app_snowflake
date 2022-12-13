@@ -1,6 +1,6 @@
 import streamlit
-streamlit.title('JK bakers')
-streamlit.header('FRUITS AND JUICES ')
+streamlit.title('FRUITS AND JUICES')
+streamlit.header('MENU')
 streamlit.text('smoothie ')
 streamlit.text('apple pie')
 streamlit.text('Build your own fruit smoothie')
@@ -11,7 +11,7 @@ my_fruit_list = my_fruit_list.set_index('Fruit')
 streamlit.dataframe(my_fruit_list)
 
 # Let's put a pick list here so they can pick the fruit they want to include 
-streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index),['avocado','strawberries'])
+streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index))
 
 # Display the table on the page.
 
